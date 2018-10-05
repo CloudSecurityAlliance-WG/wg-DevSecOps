@@ -1,0 +1,15 @@
+
+== Benefits of agile security
+
+* Resilient: Security doesn’t rely on a single function, e.g. a single security department. Integration of security practices throughout the organization. Requires deeper involvement of when compared to ISMS processes.
+
+* Holistic: Emphasize that the weakest link of security are humans. [Agile Security is a hybrid comparable approach to traditional information security management].
+
+* Dynamic: Requires integration with business processes and down to the tactical levels, therefore reacts faster to threats and incidents.
+
+* Tailored: stronger protection on core or vulnerable processes while less burden on the less necessary. Compared to an ISMS approach that often applies the same set of controls across all processes, leading to inefficient resource allocation.
+
+* Human-centric: security is included as an aspect of everyone’s work and requires mind-share in all employees. It is not some function that is just enforced and required by a separate security function.
+
+* Maturity of an agile security approach can lead to achievement of a formal ISMS given the need.
+

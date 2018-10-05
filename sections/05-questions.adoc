@@ -1,0 +1,13 @@
+
+[[questions]]
+== The (right) questions worth answering
+
+Given the strong acclaim of DevOps practices, it is worth understanding how similar concepts affect security.
+
+Here are the important questions we answer below:
+
+* What is the impact of DevOps practices on security?
+
+* How do we provide security through DevOps?
+
+* How does an organization implement security through automation?

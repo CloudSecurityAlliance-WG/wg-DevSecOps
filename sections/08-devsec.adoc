@@ -1,0 +1,40 @@
+
+[[dso]]
+== DevSec: Automating security practices
+
+=== General
+
+How do organizations implement security using automation? This is a generalized question from the previous one about security automation, no longer limited to DevOps. DevOps practices generally only helps with infrastructure automation. What should an organization do to fully utilize automation in achievement of security?
+
+=== Definition
+
+We arrive at this definition.
+
+DevSec, security automation:: The use of automation in place of manual processes for the achievement of information security management.
+
+
+=== Implications
+
+“Security as Code” is not equivalent to security automation because it does not require the “programmatic” ability.
+
+[example]
+A scripted application of the DOD Security Technical Implementation Guides (STIG) may still have to be run manually during the installation of a server.
+
+
+Examples of security automation:
+
+* Business Continuity
+** Automatic business continuity plan testing through Infrastructure as Code (IaC)
+** Continuous backup and restore testing with data masking
+
+* SSL Certificates and Public Key Infrastructure
+** Monitoring and auto renewal of SSL certificates
+** Testing of expiry dates of SSL certificates
+** Private and public key rotation
+
+* Identity and Access management
+
+* Infrastructure
+** Vulnerability scanning of servers, VMs, containers, appliances during runtime
+** Anti-virus scan during runtime
+

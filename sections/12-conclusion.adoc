@@ -1,0 +1,5 @@
+
+[[conclusion]]
+== Conclusion
+
+Agile security provides a set of wide-implicating and easily understandable principles that affect an organization's cybersecurity posture, especially suitable for today's fast-paced and challenging cybersecurity landscape.

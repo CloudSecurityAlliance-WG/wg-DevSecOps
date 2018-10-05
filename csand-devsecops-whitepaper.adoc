@@ -1,0 +1,43 @@
+= CSA Standard: Agile security: the intersection of security, development and operations
+:title: Agile security: the intersection of security, development and operations
+:docnumber: CSA 20001
+:doctype: standard
+:status: working-draft
+:edition: 1
+:copyright-year: 2018
+:revdate: 2018-10-05T00:00:00Z
+:technical-committee: DevSecOps
+:language: en
+:script: Latn
+:draft:
+:toc:
+:stem:
+:xrefstyle: short
+:imagesdir: images
+:local-cache-only:
+:data-uri-image:
+
+:sectnums!:
+
+include::sections/00-foreword.adoc[]
+include::sections/00-introduction.adoc[]
+
+:sectnums:
+
+include::sections/01-scope.adoc[]
+include::sections/02-references.adoc[]
+include::sections/03-terms.adoc[]
+include::sections/04-devops.adoc[]
+include::sections/05-devopssec.adoc[]
+include::sections/06-questions.adoc[]
+include::sections/07-devsecops.adoc[]
+include::sections/08-devsec.adoc[]
+include::sections/09-agile-security.adoc[]
+include::sections/10-agile-pillars.adoc[]
+include::sections/11-agile-benefits.adoc[]
+include::sections/12-conclusion.adoc[]
+
+include::sections/99-bibliography.adoc[]
+
+include::sections/a0-guidelines.adoc[]
+include::sections/a1-agile-not.adoc[]

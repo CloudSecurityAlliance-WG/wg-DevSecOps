@@ -1,0 +1,75 @@
+
+[[dso]]
+== DevSecOps: providing security through DevOps
+
+=== General
+
+How do we provide security through DevOps? Despite this question containing similar keywords with the previous one, it is an even more important question. Is it possible to apply DevOps concepts, where development practices can and have enhanced operations efficiency, onto security? Some have called this “DevSecOps” for “Security DevOps”.
+
+
+=== Definition
+
+We arrive at this definition.
+
+DevSecOps (“DSO”):: The automation of information security processes through DevOps practices.
+
+
+=== Implications
+
+
+On a tactical level, DSO represents the “integration and automation of security controls through DevOps using automated toolchains”. The CSO sets the policies following business requirements and risk management, which could be applied programmatically.
+
+Examples of DSO practices:
+
+* Infrastructure
+
+** Immutable infrastructures
+
+* QA
+
+** Implementation of data masking of data used in development for testing
+
+* Containers
+
+** Vulnerability scanning during building of container images
+
+** Patch management of applications and libraries inside containers
+
+** Hardening / secure configuration, self-healing
+
+** PKI / Digital signatures
+
+** Anti-virus scan during building of container images
+
+** Certify container images
+
+** Scan for embedded keys, hardcoded credentials, push for role based access technology
+
+** Cryptographically sign and certify container images
+
+* Operating systems / VM images
+
+** Vulnerability scanning during building of VM images
+
+** Patch management of applications and libraries of the operating system
+
+** Hardening / secure configuration, self-healing
+
+** Anti-virus scan during building of VM images
+
+** Cryptographically sign and certify VM images
+
+* Code / applications
+
+** Static code analysis after code commits, builds or releases
+
+** Scanning for embedded keys, hardcoded credentials, push for role based access
+
+* Release management
+
+** Create new public/private keys for each release
+
+** Only accept signed/certified container and OS images
+
+** Revocation of older SSL certificates / private keys / PKI after each release
+

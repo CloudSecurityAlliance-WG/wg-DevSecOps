@@ -1,0 +1,9 @@
+
+[bibliography]
+== Bibliography
+
+* [[[ISO27000,ISO/IEC 27000:2018]]], _Information technology -- Security techniques -- Information security management systems -- Overview and vocabulary_
+
+* [[[ISO31000,ISO 31000]]], _Risk management -- Guidelines_
+
+//TODO: Add PCI-DSS, CSA assurance programs, HIPAA, etc.

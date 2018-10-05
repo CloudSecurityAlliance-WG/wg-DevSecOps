@@ -1,0 +1,10 @@
+.DS_Store
+.swp
+.tmp.xml
+
+# ISO files
+iso-*.html
+iso-*.doc
+iso-*.xml
+iso-*_files
+
