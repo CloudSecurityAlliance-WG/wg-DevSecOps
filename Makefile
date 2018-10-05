@@ -2,7 +2,7 @@ SRC  := $(wildcard csand-*.adoc)
 XML  := $(patsubst %.adoc,%.xml,$(SRC))
 HTML := $(patsubst %.adoc,%.html,$(SRC))
 DOC  := $(patsubst %.adoc,%.doc,$(SRC))
-PDF  := $(patsubst %.adoc,%.doc,$(PDF))
+PDF  := $(patsubst %.adoc,%.pdf,$(PDF))
 
 SHELL := /bin/bash
 

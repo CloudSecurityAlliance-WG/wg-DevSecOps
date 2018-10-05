@@ -1,5 +1,5 @@
 
-[[dso]]
+[[ds]]
 == DevSec: Automating security practices
 
 === General
