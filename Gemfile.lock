@@ -23,19 +23,8 @@ GIT
       nokogiri
 
 GIT
-  remote: https://github.com/riboseinc/metanorma-iso
-  revision: c02cab761f8f3192d80454da24de1deeb1c967ce
-  specs:
-    metanorma-iso (1.0.6)
-      asciidoctor (~> 1.5.7)
-      iev (~> 0.2.0)
-      isodoc (~> 0.9.0)
-      metanorma-standoc (~> 1.0.0)
-      relaton (~> 0.2.0)
-      ruby-jing
-
-PATH
-  remote: ../metanorma-csand
+  remote: https://github.com/riboseinc/metanorma-csand
+  revision: 6ad83ea11e116f6ad6271ee08ae1903c21f5cd0d
   specs:
     metanorma-csand (1.0.5)
       asciidoctor (~> 1.5.7)
@@ -50,6 +39,18 @@ PATH
       ruby-xslt
       thread_safe
       uuidtools
+
+GIT
+  remote: https://github.com/riboseinc/metanorma-iso
+  revision: c02cab761f8f3192d80454da24de1deeb1c967ce
+  specs:
+    metanorma-iso (1.0.6)
+      asciidoctor (~> 1.5.7)
+      iev (~> 0.2.0)
+      isodoc (~> 0.9.0)
+      metanorma-standoc (~> 1.0.0)
+      relaton (~> 0.2.0)
+      ruby-jing
 
 GEM
   remote: https://rubygems.org/
