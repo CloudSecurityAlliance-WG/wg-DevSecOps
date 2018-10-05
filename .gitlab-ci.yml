@@ -10,7 +10,7 @@ build:
   script:
     - bundle
     - make clean all
-    - mkdir -p public && mv *.doc *.xml *.html public/
+    - mkdir -p public && mv *.xml *.html public/
   artifacts:
     paths:
       - public
