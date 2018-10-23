@@ -8,14 +8,12 @@ How do organizations implement security using automation? This is a generalized 
 
 === Definition
 
-We arrive at this definition.
-
 DevSec, security automation:: The use of automation in place of manual processes for the achievement of information security management.
 
 
 === Implications
 
-“Security as Code” is not equivalent to security automation because it does not require the “programmatic” ability.
+"`Security as Code`" is not equivalent to security automation because it does not require the "`programmatic`" ability.
 
 [example]
 A scripted application of the DOD Security Technical Implementation Guides (STIG) may still have to be run manually during the installation of a server.

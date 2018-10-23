@@ -4,14 +4,12 @@
 
 === General
 
-What is the impact of DevOps practices on security? Or more specifically, how do organizations ensure that DevOps does not compromise security? This has been called “DevOpsSec”: “DevOps” security. DevOps practices bring strong impact on resulting infrastructure and operations. There are inherent security requirements in DevOps processes.
+What is the impact of DevOps practices on security? Or more specifically, how do organizations ensure that DevOps does not compromise security? This has been called "`DevOpsSec`": "`DevOps`" security. DevOps practices bring strong impact on resulting infrastructure and operations. There are inherent security requirements in DevOps processes.
 
 
 === Definition
 
-We arrive at this definition.
-
-DevOpsSec (“DOS”):: The embedding of information security principles to protect processes that utilize DevOps practices.
+DevOpsSec ("`DOS`"):: The embedding of information security principles to protect processes that utilize DevOps practices.
 
 
 === Implications
@@ -20,7 +18,7 @@ A software-defined infrastructure is highly beneficial (or a wet dream) for the 
 
 Yet, as best put by Spiderman, power bring responsibility. It is equally true that the novice engineer armed with some development skill could have his fingertips spin things out of control. Very often, create security vulnerabilities due to lack of consideration of all aspects surrounding the infrastructure. E.g. lax firewall rulesets, default credentials or increased attack surface.
 
-This happens more often than one thinks. As ironic it may be, software development and infrastructure administration are generally separate skill sets that doing one well does not necessary translate to the other. Anecdotes of novice developers attempting to use “DevOps” in running infrastructure causing moments of reflection abound.
+This happens more often than one thinks. As ironic it may be, software development and infrastructure administration are generally separate skill sets that doing one well does not necessary translate to the other. Anecdotes of novice developers attempting to use "`DevOps`" in running infrastructure causing moments of reflection abound.
 
 In this document, we will describe the crucial security practices for protecting DevOps processes and preventing DevOps from being a threat.
 

@@ -5,12 +5,16 @@ The Cloud Security Alliance ("`CSA`") is global non-profit
 organization with the aim to facilitate and protect user information in the
 cloud and its ecosystem.
 
+////
+TODO
+
 The procedures used to develop this document and those intended for its further
 maintenance are described in the CSA Directives.
 
 In particular the different approval criteria needed for the different types of
 CSA documents should be noted. This document was drafted in accordance with the
 editorial rules of the CSA Directives.
+////
 
 Attention is drawn to the possibility that some of the elements of this
 document may be the subject of patent rights. CSA shall not be held responsible

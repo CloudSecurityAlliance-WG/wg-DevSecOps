@@ -4,20 +4,18 @@
 
 === General
 
-How do we provide security through DevOps? Despite this question containing similar keywords with the previous one, it is an even more important question. Is it possible to apply DevOps concepts, where development practices can and have enhanced operations efficiency, onto security? Some have called this “DevSecOps” for “Security DevOps”.
+How do we provide security through DevOps? Despite this question containing similar keywords with the previous one, it is an even more important question. Is it possible to apply DevOps concepts, where development practices can and have enhanced operations efficiency, onto security? Some have called this "`DevSecOps`" for "`Security DevOps`".
 
 
 === Definition
 
-We arrive at this definition.
-
-DevSecOps (“DSO”):: The automation of information security processes through DevOps practices.
+DevSecOps ("`DSO`"):: The automation of information security processes through DevOps practices.
 
 
 === Implications
 
 
-On a tactical level, DSO represents the “integration and automation of security controls through DevOps using automated toolchains”. The CSO sets the policies following business requirements and risk management, which could be applied programmatically.
+On a tactical level, DSO represents the "`integration and automation of security controls through DevOps using automated toolchains`". The CSO sets the policies following business requirements and risk management, which could be applied programmatically.
 
 Examples of DSO practices:
 

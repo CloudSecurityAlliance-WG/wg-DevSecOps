@@ -4,10 +4,10 @@
 
 This document:
 
-* provides rigorous definitions for the terms “DevOpsSec”, “DevSecOps”, “SecDevOps”;
+* provides rigorous definitions for the terms "`DevOpsSec`", "`DevSecOps`" and "`SecDevOps`";
 
-* describes the benefits of amalgamating security, development and operations;
+* describes the benefits of amalgamating security, development and operation practices for integrated management;
 
-* describes the “Agile Security” approach that represents a new paradigm in security management.
+* describes the "`Agile Security`" approach that represents a new paradigm in security management.
 
 

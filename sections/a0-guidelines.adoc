@@ -1,6 +1,6 @@
 
 [appendix]
-== Guidelines for implementing agile security
+== Guidelines for implementing Agile Security
 
 === Approach A: Cross-train
 
@@ -15,11 +15,11 @@ Delegate risk management, maintenance of BCPs etc. to department heads. Freeing 
 
 DevOps is process neutral. Organizations can use Agile or Scrum. Have security engineers attend daily scrum meetings, make them part of the DevOps team.
 
-
+////
 === Spiraling governance costs
 
 Lower costs by using security automation
 
 Operating system patching results in downtime due to the sheer volume of patches and patching can result in unplanned downtime due to inability to test patches across the chain.
 
-
+////

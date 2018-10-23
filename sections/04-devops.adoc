@@ -4,11 +4,11 @@
 
 === General
 
-While the term “DevOps” has been widely defined by its practices and toolsets, there are several conflicting definitions on what the term really represents.
+While the term "`DevOps`" has been widely defined by its practices and toolsets, there are several conflicting definitions on what the term really represents.
 
-Some of them are too narrow while some are too broad to be meaningful. For example, the Wikipedia article on DevOps claims it is “a set of practices that emphasize the collaboration and communication of both software developers and information technology (IT) professionals while automating the process of software delivery and infrastructure changes”, which is too vague, too broad as well as inaccurate.
+Some of them are too narrow while some are too broad to be meaningful. For example, the Wikipedia article on DevOps claims it is "`a set of practices that emphasize the collaboration and communication of both software developers and information technology (IT) professionals while automating the process of software delivery and infrastructure changes`", which is too vague, too broad as well as inaccurate.
 
-“DevOps” practices today have minimal, if any, impact on software application development process itself. Its practices and related tools mainly service infrastructure automation, through concepts made apparent by Agile software development practices, such as continuous integration and delivery and programmatic (software-defined) infrastructure.
+"`DevOps`" practices today have minimal, if any, impact on software application development process itself. Its practices and related tools mainly service infrastructure automation, through concepts made apparent by Agile software development practices, such as continuous integration and delivery and programmatic (software-defined) infrastructure.
 
 === Definition
 

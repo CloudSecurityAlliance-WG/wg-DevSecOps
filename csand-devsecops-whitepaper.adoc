@@ -1,12 +1,12 @@
-= CSA Standard: Agile security: the intersection of security, development and operations
-:title: Agile security: the intersection of security, development and operations
+= CSA Standard: Agile Security: the intersection of security, development and operations
+:title: Agile Security: the intersection of security, development and operations
 :docnumber: CSA 20001
 :doctype: standard
 :status: working-draft
 :edition: 1
 :copyright-year: 2018
 :revdate: 2018-10-05T00:00:00Z
-:technical-committee: DevSecOps
+:technical-committee: DevSecOps WG
 :language: en
 :script: Latn
 :draft:

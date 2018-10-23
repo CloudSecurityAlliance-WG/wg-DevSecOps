@@ -1,10 +1,10 @@
 
 [[agile-pillars]]
-== Six pillars of agile security
+== Six pillars of Agile Security
 
 === Collectively responsible
 
-Everyone is responsible towards the security stance of the organization. The CSO plays a leadership and sheparding role for information security within an organization, but each person has their own security responsibility, and they must be aware of their own contribution (and potential problems) towards the organization’s security stance. Edge users are not just “security-aware”, but are the first line of defence.
+Everyone is responsible towards the security stance of the organization. The CSO plays a leadership and shepherding role for information security within an organization, but each person has their own security responsibility, and they must be aware of their own contribution (and potential problems) towards the organization's security stance. Edge users are not just "`security-aware`", but are the first line of defence.
 
 === Collaborate
 
@@ -13,16 +13,17 @@ Security can only be achieved through collaboration, not confrontation. A securi
 === Pragmatic
 
 Security should provide value, not hindrance. For every security initiative or adopted security control, a cost-benefit should be considered to allow transparency on the value of security. Without this pragmatic approach, it is too easy for persons unaware of the benefits of security to dismiss security practices as mere overhead or unnecessary. This provides the necessary business case to convince stakeholders for security and therefore confidence to execute plans faithfully.
+
 Traditional ISMS can create overhead, need to balance tailoring to an organization and adoption of best practices. Documentation requirements should be based on clearly thought out value brought to the organization, not a hard requirement.
 
 === Integrate
 
-Security must be integrated in every aspect of business. Dedicated security personnel rarely have in-depth domain expertise as your business domain experts, and they are the wrong way of solving the problem no matter how many are hired. The truth is, no one else will know your domain, as well as its risks, as well as yourself. A team of dedicated security experts will most likely be oblivious of your domain-specific security issues. Domain knowledge and security knowledge must be fused and co-exist in every organizational process for effective security management. 
+Security must be integrated in every aspect of business. Dedicated security personnel rarely have in-depth domain expertise as your business domain experts, and they are the wrong way of solving the problem no matter how many are hired. The truth is, no one else will know your domain, as well as its risks, as well as yourself. A team of dedicated security experts will most likely be oblivious of your domain-specific security issues. Domain knowledge and security knowledge must be fused and co-exist in every organizational process for effective security management.
 
 === Automate
 
-Automated security practices are the core of optimizing process efficiency. Processes that can be automated should be automated, and those that can’t should be transformed. Automation also creates its own set of problems but automated approaches to those problems are often possible. There is a saying in software development: if you do the same thing thrice, it’s time to program it, and this applies squarely with Agile Security.
+Automated security practices are the core of optimizing process efficiency. Processes that can be automated should be automated, and those that can't should be transformed. Automation also creates its own set of problems but automated approaches to those problems are often possible. There is a saying in software development: if you do the same thing thrice, it's time to program it, and this applies squarely with Agile Security.
 
 === Measure
 
-Performance that cannot be measured cannot be improved. Without measurements, there is no understandable evidence whether an information security management is effective. Agile Security is about achieving results, and even as vague as they might be, the results must be measureable for transparency and improvement. 
+Performance that cannot be measured cannot be improved. Without measurements, there is no understandable evidence whether an information security management is effective. Agile Security is about achieving results, and even as vague as they might be, the results must be measurable for transparency and improvement.

@@ -1,26 +1,26 @@
 
 [[agile-sec]]
-== Agile security: the new paradigm
+== Agile Security: the new paradigm
 
-Problem: CSO's do not have sufficient number of security staff, cybersecurity job openings: 1 million in 2016; 1.5 million by 2019 (source: http://www.csoonline.com/article/3094683/leadershi...)
+Problem: CSO's do not have sufficient number of security staff.
 
 //[ TODO: Describe the ITIL operational gap ]
 
-Agile security is a new paradigm for information security management, that emphasizes embodiment of security across organizational roles, reactive to external and internal threats in an agile and dynamic way.
+Agile Security is a new paradigm for information security management, that emphasizes embodiment of security across organizational roles, reactive to external and internal threats in an agile and dynamic way.
 
-Agile Security compares to Agile Software Development, just like how the traditional ISMS approach compares to the Waterfall mindset.
+NOTE: Agile Security compares to Agile Software Development, similar to how the traditional ISMS approach compares to the Waterfall mindset.
 
-Agile security is about dynamic information exchange within the organization. Like the immune system of the human body, information is immediately propagated to adjacent, potentially vulnerable functions given detection of a threat. A traditional ISMS approach will require that threat information to be reported back to the higher functions before any response can be made. With Agile security, the business functions themselves are integrated security functions and can provide an immediate response to block potential impact. A centralized response is important, but should not prohibit an immediate tactical approach.
+Agile Security is about dynamic information exchange within the organization. Like the immune system of the human body, information is immediately propagated to adjacent, potentially vulnerable functions given detection of a threat. A traditional ISMS approach will require that threat information to be reported back to the higher functions before any response can be made. With Agile Security, the business functions themselves are integrated security functions and can provide an immediate response to block potential impact. A centralized response is important, but should not prohibit an immediate tactical approach.
 
 The ISMS approach is about adopting best practices. However, often best practices that work in larger organizations do not work with smaller ones, and create an unnecessary burden for the smaller organizations, which takes away precious time and effort from daily work and hence negatively affects their security stances.
 
-Agile Security solves the security skill shortage paradox by promoting the idea of “hybrid-domain-security-experts”.
+Agile Security solves the security skill shortage paradox by promoting the idea of "`hybrid-domain-security-experts`".
 
 * Risks are delegated
 
 * Security responsibilities are delegated
 
-A “commitment” of top leadership (as in ISMS) is not enough. Top leadership must understand the nature of security and is committed to integrating security into each and every aspect of the organization. Top leadership must fully understand the risks and threats the organization faces (its risk profile) with regards to security, and set clear bounds and requirements for personnel to adhere to.
+A "`commitment`" of top leadership (as in ISMS) is not enough. Top leadership must understand the nature of security and is committed to integrating security into each and every aspect of the organization. Top leadership must fully understand the risks and threats the organization faces (its risk profile) with regards to security, and set clear bounds and requirements for personnel to adhere to.
 
-Humans, it is often said, are the weakest link in security. Phishing, social engineering are all techniques to trick an unsuspecting individual to voluntarily compromise security of an organization. Without full participation (not just “awareness”) of all involved people, security cannot be achieved.
+Humans, it is often said, are the weakest link in security. Phishing, social engineering are all techniques to trick an unsuspecting individual to voluntarily compromise security of an organization. Without full participation (not just "`awareness`") of all involved people, security cannot be achieved.
 

@@ -1,14 +1,14 @@
 GIT
   remote: https://github.com/riboseinc/metanorma
-  revision: 9c89777801fcf3cdff5977a3016dfa18d1792e97
+  revision: 821cd295a6070bfcc32b22b152b866adc94e91fc
   specs:
-    metanorma (0.2.9)
+    metanorma (0.2.11)
 
 GIT
   remote: https://github.com/riboseinc/metanorma-cli
-  revision: 5f33f088080eabca0a7811383ebed2393a78c993
+  revision: c50f12e56beb47ed2575e666e6070aa56d848b9d
   specs:
-    metanorma-cli (1.0.1)
+    metanorma-cli (1.0.2)
       asciidoctor-rfc (~> 0.9.0)
       isodoc (~> 0.9.0)
       metanorma (~> 0.2.6)
@@ -24,9 +24,9 @@ GIT
 
 GIT
   remote: https://github.com/riboseinc/metanorma-csand
-  revision: 6ad83ea11e116f6ad6271ee08ae1903c21f5cd0d
+  revision: a5a7b9359dbb136163ad3fa9857d29750ec4286e
   specs:
-    metanorma-csand (1.0.5)
+    metanorma-csand (1.0.6)
       asciidoctor (~> 1.5.7)
       asciimath
       htmlentities (~> 4.3.4)
@@ -42,15 +42,27 @@ GIT
 
 GIT
   remote: https://github.com/riboseinc/metanorma-iso
-  revision: c02cab761f8f3192d80454da24de1deeb1c967ce
+  revision: 02d92f4af86635646c94bcda77e88f78eae26343
   specs:
-    metanorma-iso (1.0.6)
+    metanorma-iso (1.0.7)
       asciidoctor (~> 1.5.7)
       iev (~> 0.2.0)
       isodoc (~> 0.9.0)
       metanorma-standoc (~> 1.0.0)
       relaton (~> 0.2.0)
       ruby-jing
+
+GIT
+  remote: https://github.com/riboseinc/relaton
+  revision: 6155dcf62b1cdd57e7a80ce83698a41383d14a27
+  specs:
+    relaton (0.2.6)
+      algoliasearch
+      gbbib (~> 0.4.0)
+      iecbib (~> 0.2.0)
+      ietfbib (~> 0.4.2)
+      iso-bib-item (~> 0.4.1)
+      isobib (~> 0.4.0)
 
 GEM
   remote: https://rubygems.org/
@@ -73,11 +85,11 @@ GEM
     cnccs (0.1.3)
     ffi (1.9.25)
     gb-agencies (0.0.3)
-    gbbib (0.3.1)
+    gbbib (0.4.0)
       cnccs (~> 0.1.1)
       gb-agencies (~> 0.0.1)
-      iso-bib-item (~> 0.3.0)
-    html2doc (0.8.4)
+      iso-bib-item (~> 0.4.1)
+    html2doc (0.8.5)
       asciimath
       htmlentities (~> 4.3.4)
       image_size
@@ -88,22 +100,23 @@ GEM
       uuidtools
     htmlentities (4.3.4)
     httpclient (2.8.3)
-    iecbib (0.1.2)
+    iecbib (0.2.0)
       addressable
-      iso-bib-item (~> 0.3.0)
-    ietfbib (0.4.1)
-      iso-bib-item (~> 0.3.0)
+      iso-bib-item (~> 0.4.0)
+    ietfbib (0.4.2)
+      iso-bib-item (~> 0.4.1)
     iev (0.2.0)
       nokogiri
     image_size (2.0.0)
-    iso-bib-item (0.3.1)
+    iso-bib-item (0.4.1)
       isoics (~> 0.1.6)
       nokogiri (~> 1.8.4)
       ruby_deep_clone (~> 0.8.0)
-    isobib (0.3.1)
+    isobib (0.4.0)
       algoliasearch
-      iso-bib-item (~> 0.3.0)
-    isodoc (0.9.2)
+      iecbib (~> 0.2.0)
+      iso-bib-item (~> 0.4.0)
+    isodoc (0.9.4)
       asciimath
       html2doc (~> 0.8.1)
       htmlentities (~> 4.3.4)
@@ -117,22 +130,22 @@ GEM
       uuidtools
     isoics (0.1.7)
     json (2.1.0)
-    liquid (4.0.0)
+    liquid (4.0.1)
     metanorma-acme (1.0.1)
       asciidoctor (~> 1.5.7)
       htmlentities (~> 4.3.4)
       isodoc (~> 0.9.0)
       metanorma-standoc (~> 1.0.0)
       ruby-jing
-    metanorma-csd (1.0.5)
+    metanorma-csd (1.0.6)
       isodoc (~> 0.9.0)
       metanorma-standoc (~> 1.0.0)
-    metanorma-gb (1.0.5)
+    metanorma-gb (1.0.6)
       gb-agencies (~> 0.0.1)
-      isodoc (~> 0.9.0)
+      isodoc (~> 0.9.1)
       metanorma-iso (~> 1.0.1)
       twitter_cldr
-    metanorma-m3d (1.0.6)
+    metanorma-m3d (1.0.7)
       asciidoctor (~> 1.5.7)
       asciimath
       htmlentities (~> 4.3.4)
@@ -145,7 +158,7 @@ GEM
       ruby-xslt
       thread_safe
       uuidtools
-    metanorma-rsd (1.0.5)
+    metanorma-rsd (1.0.6)
       asciidoctor (~> 1.5.7)
       htmlentities (~> 4.3.4)
       isodoc (~> 0.9.0)
@@ -168,13 +181,6 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
-    relaton (0.2.4)
-      algoliasearch
-      gbbib (~> 0.3.1)
-      iecbib (~> 0.1.1)
-      ietfbib (~> 0.4.1)
-      iso-bib-item (~> 0.3.0)
-      isobib (~> 0.3.1)
     roman-numerals (0.3.0)
     ruby-jing (0.0.1)
       optout (>= 0.0.2)
@@ -205,6 +211,7 @@ DEPENDENCIES
   metanorma-cli!
   metanorma-csand!
   metanorma-iso!
+  relaton!
 
 BUNDLED WITH
    1.16.2
