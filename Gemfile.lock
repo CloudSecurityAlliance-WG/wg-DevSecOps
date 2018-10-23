@@ -178,6 +178,7 @@ GEM
       mini_portile2 (~> 2.3.0)
     optout (0.0.2)
     public_suffix (3.0.3)
+    rake (12.3.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -211,6 +212,7 @@ DEPENDENCIES
   metanorma-cli!
   metanorma-csand!
   metanorma-iso!
+  rake
   relaton!
 
 BUNDLED WITH
