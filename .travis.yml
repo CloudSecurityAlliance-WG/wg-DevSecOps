@@ -1,0 +1,11 @@
+sudo: true
+language: ruby
+rvm:
+  - 2.5.1
+before_install:
+  - travis_retry sudo apt-get update
+  - travis_retry sudo apt-get install -y git make ruby-bundler ruby-dev libxml2-dev libxslt-dev default-jre
+  - travis_retry gem install bundler
+  - travis_retry gem install nokogiri -v '1.8.4'
+script:
+  - make clean all
