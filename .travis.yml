@@ -11,11 +11,7 @@ before_install:
   - sudo mkdir -p /opt/plantuml
   - cd /opt/plantuml
   - sudo curl -JLO ${PLANTUML_URL}
-  - |
-    cat <<EOF | sudo tee /usr/local/bin/plantuml >
-    #!/bin/sh
-    java -jar /opt/plantuml/plantuml.jar "\$@"
-    EOF
+  - printf '#!/bin/sh\njava -jar /opt/plantuml/plantuml.jar "$@"\n' > /usr/local/bin/plantuml
   - sudo chmod a+x /usr/local/bin/plantuml
 env:
   - JAVA_OPTS="java.awt.headless=true"
