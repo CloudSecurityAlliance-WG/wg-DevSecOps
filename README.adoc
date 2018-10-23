@@ -1,0 +1,25 @@
+= CSA DevSecOps WG: Agile Security position paper
+
+== Introduction
+
+This document describes the rationale, definitions and benefits of DevSecOps and its related practices.
+
+== Getting started
+
+=== General
+
+This document is written in AsciiDoc using https://www.metanorma.com/software/metanorma-csand/[Metanorma-CSAND], the Metanorma flavor for "`CSA Normal Documents`".
+
+=== Installation
+
+See https://www.metanorma.com/overview/getting-started/
+
+=== Building/Iterating the document
+
+[source,sh]
+----
+make clean all
+open csand-*.html
+----
+
+
