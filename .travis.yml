@@ -14,8 +14,9 @@ before_install:
   - printf '#!/bin/sh\njava -jar /opt/plantuml/plantuml.jar "$@"\n' > /usr/local/bin/plantuml
   - sudo chmod a+x /usr/local/bin/plantuml
 env:
-  - JAVA_OPTS="java.awt.headless=true"
-  - PLANTUML_URL=http://sourceforge.net/projects/plantuml/files/plantuml.jar/download
+  global:
+    - JAVA_OPTS="java.awt.headless=true"
+    - PLANTUML_URL=http://sourceforge.net/projects/plantuml/files/plantuml.jar/download
 script:
-  # - plantuml -testdot
+  - plantuml -testdot
   - make clean all
