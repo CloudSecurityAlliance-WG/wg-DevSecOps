@@ -1,12 +1,12 @@
 GIT
   remote: https://github.com/riboseinc/metanorma
-  revision: 821cd295a6070bfcc32b22b152b866adc94e91fc
+  revision: 7ae608b1a3dfc74876c778d0c9ade75aa15bda08
   specs:
     metanorma (0.2.11)
 
 GIT
   remote: https://github.com/riboseinc/metanorma-cli
-  revision: c50f12e56beb47ed2575e666e6070aa56d848b9d
+  revision: ffa3cc8545fd151febb42e8e2598b140e6e0ccde
   specs:
     metanorma-cli (1.0.2)
       asciidoctor-rfc (~> 0.9.0)
@@ -24,7 +24,7 @@ GIT
 
 GIT
   remote: https://github.com/riboseinc/metanorma-csand
-  revision: a5a7b9359dbb136163ad3fa9857d29750ec4286e
+  revision: 65a4064699bfd95bb5483b626d4e490f728ae12f
   specs:
     metanorma-csand (1.0.6)
       asciidoctor (~> 1.5.7)
@@ -42,7 +42,7 @@ GIT
 
 GIT
   remote: https://github.com/riboseinc/metanorma-iso
-  revision: 02d92f4af86635646c94bcda77e88f78eae26343
+  revision: c50830ad0bef3f4c0a41f60096cd85162ad26388
   specs:
     metanorma-iso (1.0.7)
       asciidoctor (~> 1.5.7)
@@ -178,7 +178,6 @@ GEM
       mini_portile2 (~> 2.3.0)
     optout (0.0.2)
     public_suffix (3.0.3)
-    rake (12.3.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -212,7 +211,6 @@ DEPENDENCIES
   metanorma-cli!
   metanorma-csand!
   metanorma-iso!
-  rake
   relaton!
 
 BUNDLED WITH
