@@ -1,4 +1,4 @@
-= CSA Standard: Agile Security: the intersection of security, development and operations
+= CSA Standard: Agile Security: the integration of security, development and operations
 :title: Agile Security: the intersection of security, development and operations
 :docnumber: CSA 20001
 :doctype: standard
