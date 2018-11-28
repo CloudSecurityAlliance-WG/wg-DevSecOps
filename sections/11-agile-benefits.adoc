@@ -1,14 +1,16 @@
 
 == Benefits of Agile Security
 
-* Resilient: Security no longer relies on a single function, e.g. a single security department. Integration of security practices throughout the organization. Requires deeper involvement of when compared to ISMS processes.
+* Resilient: Security no longer relies on a single function, e.g. a single security department. Integration of security practices throughout the organization. Requires deeper involvement when compared to ISMS processes.
 
-* Holistic: Focused on business needs and responding to the actual risk context faced by the organization when compared to traditional information security management, from business goals to operational processes to humans, who often turn out to be the weakest link.
+* Holistic: Focused on business needs and responding to the actual risk context of the organization when compared to traditional information security management, from business goals to operational processes to humans, who often turn out to be the weakest link.
+*** long sentance and can be rephrased ***
 
 * Dynamic: The protection of business goals is performed through integrating security with business processes, often down to the tactical levels. This allowing the organization to react faster and more effectively to threats and incidents.
 
 * Tailored: Prioritized approach to provision stronger protection to core or more vulnerable processes over those less exploitable. The traditional ISMS approach often applies the same set of controls across all processes, leading to inefficient resource allocation.
 
-* Human-centric: Security is integrated and internalized as an aspect of everyone's work, and requires mind-share within every employee. It is not an external responsibility enforced or required by a separate, dedicated, security function.
+* Human-centric: Security is integrated and internalized aspect of everyone's work, and requires mind-share within every employee. It is not an external responsibility enforced or required by a separate, dedicated, security function.
 
-* Maturity of an Agile Security approach can lead to achievement of a formal ISMS given the need.
+* Maturity of an Agile Security approach can lead to achieving a formal ISMS given the need.
+*** is this a final/closing statement ****
