@@ -8,6 +8,10 @@ Here are the important questions we answer below:
 
 * What is the impact of DevOps practices on security?
 
+* How do we build in threat risk?
+
+* How do we monitor and control this to know it is getting done?
+
 * How do we provide security through DevOps?
 
 * How does an organization implement security through automation?
