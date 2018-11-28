@@ -14,5 +14,5 @@ Some of them are too narrow while some are too broad to be meaningful. For examp
 
 In this document, we clarify the following definition:
 
-DevOps:: The cross-application of software development and methodologies to infrastructure operations, chiefly for automating infrastructure management.
+DevOps:: The cross-application of software development and methodologies to infrastructure operations, chiefly for deplyment, configuration management and environmental and infrastructure management.
 
