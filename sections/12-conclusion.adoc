@@ -2,4 +2,4 @@
 [[conclusion]]
 == Conclusion
 
-Agile Security provides a set of wide-implicating and easily understandable principles that affect an organization's cybersecurity posture, especially suitable for today's fast-paced and challenging cybersecurity landscape.
+Agile Security provides a set of wide-implicating and easily understandable principles that affect an organization's cybersecurity posture and is especially suitable for today's fast-paced and challenging cybersecurity landscape.
