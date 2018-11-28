@@ -5,6 +5,7 @@
 === General
 
 How do organizations implement security using automation? This is a generalized question from the previous one about security automation, no longer limited to DevOps. DevOps practices generally only helps with infrastructure automation. What should an organization do to fully utilize automation in achievement of security?
+**** Are there other questions to ask here, should we list them, it looks like we explaining why we did is and not related to the section question, suggest a reprasing ****
 
 === Definition
 
