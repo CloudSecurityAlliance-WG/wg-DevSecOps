@@ -4,12 +4,15 @@
 
 === General
 
-How do we provide security through DevOps? Despite this question containing similar keywords with the previous one, it is an even more important question. Is it possible to apply DevOps concepts, where development practices can and have enhanced operations efficiency, onto security? Some have called this "`DevSecOps`" for "`Security DevOps`".
+How do we provide security through DevOps? Despite this question containing similar keywords to the previous one, it is an even more important question. Is it possible to apply DevOps concepts, where development practices can and have enhanced operations efficiency, onto security? Some have called this "`DevSecOps`" for "`Security DevOps`".
+**** This needs rephrasing ***
 
 
 === Definition
 
 DevSecOps ("`DSO`"):: The automation of information security processes through DevOps practices.
+*** Why we saying automation?  Is this not the implementation of controls into the DevOps and more??? ****
+
 
 
 === Implications
@@ -29,7 +32,7 @@ Examples of DSO practices:
 
 * Containers
 
-** Vulnerability scanning during building of container images
+** Vulnerability scanning when building container images
 
 ** Patch management of applications and libraries inside containers
 
@@ -43,7 +46,7 @@ Examples of DSO practices:
 
 ** Scan for embedded keys, hardcoded credentials, push for role based access technology
 
-** Cryptographically sign and certify container images
+** Cryptographically signed and certified container images
 
 * Operating systems / VM images
 
@@ -55,15 +58,18 @@ Examples of DSO practices:
 
 ** Anti-virus scan during building of VM images
 
-** Cryptographically sign and certify VM images
+** Cryptographically signed and certified VM images
 
 * Code / applications
 
 ** Static code analysis after code commits, builds or releases
 
 ** Scanning for embedded keys, hardcoded credentials, push for role based access
+*** What about IAST, RASP, DAST ****
+
 
 * Release management
+*** make mention of CI/CD ???? ***
 
 ** Create new public/private keys for each release
 
