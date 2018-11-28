@@ -10,17 +10,18 @@ What is the impact of DevOps practices on security? Or more specifically, how do
 === Definition
 
 DevOpsSec ("`DOS`"):: The embedding of information security principles to protect processes that utilize DevOps practices.
+*** not sure I agree with this ***  Is this not the imbedding of controls into the DevOps principles and practices to as to improve the migration from Dev to Ops in a way that risk is managed?????
 
 
 === Implications
 
-A software-defined infrastructure is highly beneficial (or a wet dream) for the experienced infrastructure engineer, where virtual instances, containers, and virtual network devices are spin up or down through fingertips on the keyboard.
+A software-defined infrastructure is highly beneficial for the experienced infrastructure engineer, where virtual instances, containers, and virtual network devices are spin up or down through fingertips on the keyboard or automated/on demand.
 
-Yet, as best put by Spiderman, power bring responsibility. It is equally true that the novice engineer armed with some development skill could have his fingertips spin things out of control. Very often, create security vulnerabilities due to lack of consideration of all aspects surrounding the infrastructure. E.g. lax firewall rulesets, default credentials or increased attack surface.
+Yet, as best put by Spiderman, power bring responsibility. It is equally true that the novice engineer armed with some development skill could expose the organization to significant risk at the touch of a keyboard. Very often, create security vulnerabilities due to lack of consideration of all aspects surrounding the infrastructure. E.g. lax firewall rulesets, default credentials or increased attack surface.
 
-This happens more often than one thinks. As ironic it may be, software development and infrastructure administration are generally separate skill sets that doing one well does not necessary translate to the other. Anecdotes of novice developers attempting to use "`DevOps`" in running infrastructure causing moments of reflection abound.
+This happens more often than one thinks. As ironic it may be, software development and infrastructure administration are generally separate skill sets that doing one well does not necessary translate to the all three. Anecdotes of novice developers attempting to use "`DevOps`" in running infrastructure causing moments of reflection abound.
 
-In this document, we will describe the crucial security practices for protecting DevOps processes and preventing DevOps from being a threat.
+In this document, we will describe the crucial security practices for protecting DevOps processes and preventing DevOps operations/actions from exposing threats.
 
 // [TBD: add examples on risk of DevOps]
 
