@@ -27,6 +27,8 @@ Organizations today are faced with a number of security management issues, inclu
 
 * spiralling compliance governance costs;
 
+* Faster to market deployment
+
 * global shortage of cyber security professionals, which forces organizations to more efficiently utilize staff;
 
 * the notable disconnect between strategic security and operational security.
