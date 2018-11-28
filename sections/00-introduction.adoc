@@ -29,15 +29,15 @@ Organizations today are faced with a number of security management issues, inclu
 
 * Faster to market - deployment
 
-* Complex hybrid and cross cloud solutions
+* Complex hybrib and cross cloud solutions
 
-* Limited security skills in DevOps
+* LImited security skills ain DevOps
 
 * global shortage of cyber security professionals, which forces organizations to more efficiently utilize staff;
 
 * the notable disconnect between strategic security and operational security.
 
-All of these factors force an organization to deliver more security more effectively and efficiently.
+All of these factors force an organization to deliver security more effectively and efficiently.
 
 
 === Purpose
