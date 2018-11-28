@@ -4,7 +4,7 @@
 
 This document:
 
-* provides rigorous definitions for the terms "`DevOpsSec`", "`DevSecOps`" and "`SecDevOps`";
+* provides formalized definitions for the terms "`DevOpsSec`", "`DevSecOps`" and "`SecDevOps`";
 
 * describes the benefits of amalgamating security, development and operation practices for integrated management;
 
