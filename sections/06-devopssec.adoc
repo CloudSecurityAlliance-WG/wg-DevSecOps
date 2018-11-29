@@ -10,7 +10,7 @@ What is the impact of DevOps practices on security? Or more specifically, how do
 === Definition
 
 DevOpsSec ("`DOS`"):: The embedding of information security principles to protect processes that utilize DevOps practices.
-*** not sure I agree with this ***  Is this not the imbedding of controls into the DevOps principles and practices to as to improve the migration from Dev to Ops in a way that risk is managed?????
+// not sure I agree with this   Is this not the imbedding of controls into the DevOps principles and practices to as to improve the migration from Dev to Ops in a way that risk is managed?????
 
 
 === Implications

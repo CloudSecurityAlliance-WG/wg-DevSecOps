@@ -14,7 +14,7 @@ The operational security teams know exactly what types of operating systems are 
 Delegate risk management, maintenance of BCPs etc. to department heads. Freeing up resources of the dedicated security team so they can focus on the security process management and providing the framework(s). The department heads know exactly what they have in house, what risks there are.
 
 DevOps is process neutral. Organizations can use Agile or Scrum. Have security engineers attend daily scrum meetings, make them part of the DevOps team.
-**** seems a little out of context ****
+// seems a little out of context 
 
 ////
 === Spiraling governance costs

@@ -4,7 +4,7 @@
 * Resilient: Security no longer relies on a single function, e.g. a single security department. Integration of security practices throughout the organization. Requires deeper involvement when compared to ISMS processes.
 
 * Holistic: Focused on business needs and responding to the actual risk context of the organization when compared to traditional information security management, from business goals to operational processes to humans, who often turn out to be the weakest link.
-*** long sentance and can be rephrased ***
+// long sentance and can be rephrased 
 
 * Dynamic: The protection of business goals is performed through integrating security with business processes, often down to the tactical levels. This allowing the organization to react faster and more effectively to threats and incidents.
 
@@ -13,4 +13,4 @@
 * Human-centric: Security is integrated and internalized aspect of everyone's work, and requires mind-share within every employee. It is not an external responsibility enforced or required by a separate, dedicated, security function.
 
 * Maturity of an Agile Security approach can lead to achieving a formal ISMS given the need.
-*** is this a final/closing statement ****
+// is this a final/closing statement 
