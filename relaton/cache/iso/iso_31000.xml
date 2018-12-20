@@ -1,0 +1,97 @@
+<bibitem type="international-standard" id="ISO31000">
+  <fetched>2018-12-20</fetched>
+  <title format="text/plain" language="en" script="Latn">Risk management -- Guidelines</title>
+  <title format="text/plain" language="fr" script="Latn">Management du risque -- Lignes directrices</title>
+  <uri type="src">https://www.iso.org/standard/65694.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:65694:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/06/56/65694.detail.rss</uri>
+  <docidentifier type="ISO">ISO 31000</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>2</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2018</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO 31000:2009</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="instance">
+    <bibitem type="international-standard">
+      <fetched>2018-12-20</fetched>
+      <title format="text/plain" language="en" script="Latn">Risk management -- Guidelines</title>
+      <title format="text/plain" language="fr" script="Latn">Management du risque -- Lignes directrices</title>
+      <uri type="src">https://www.iso.org/standard/65694.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:65694:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/06/56/65694.detail.rss</uri>
+      <docidentifier type="ISO">ISO 31000:2018</docidentifier>
+      <date type="published">
+        <on>2018</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>2</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="plain" language="en" script="Latn">ISO 31000:2018 provides guidelines on managing risk faced by organizations. The application of these guidelines can be customized to any organization and its context.ISO 31000:2018 provides a common approach to managing any type of risk and is not industry or sector specific.ISO 31000:2018 can be used throughout the life of the organization and can be applied to any activity, including decision-making at all levels.</abstract>
+      <abstract format="plain" language="fr" script="Latn">ISO 31000:2018 fournit des lignes directrices concernant le management du risque auquel sont confrontés les organismes. L'application de ces lignes directrices peut être adaptée à tout organisme et à son contexte.ISO 31000:2018 fournit une approche générique permettant de gérer toute forme de risque et n'est pas spécifique à une industrie ou un secteur.ISO 31000:2018 peut être utilisé tout au long de la vie de l'organisme et peut être appliqué à toute activité, y compris la prise de décisions à tous les niveaux.</abstract>
+      <status>
+        <stage>60</stage>
+        <substage>60</substage>
+      </status>
+      <copyright>
+        <from>2018</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <relation type="obsoletes">
+        <bibitem>
+          <formattedref>ISO 31000:2009</formattedref>
+        </bibitem>
+      </relation>
+      <editorialgroup>
+        <technical_committee number="262" type="TC">ISO/TC 262Risk management</technical_committee>
+      </editorialgroup>
+      <ics>
+        <code>03.100.01</code>
+        <text>Company organization and management in general</text>
+      </ics>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="262" type="TC">ISO/TC 262Risk management</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>03.100.01</code>
+    <text>Company organization and management in general</text>
+  </ics>
+</bibitem>
