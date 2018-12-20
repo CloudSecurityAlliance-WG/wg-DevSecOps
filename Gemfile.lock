@@ -1,32 +1,35 @@
 GIT
   remote: https://github.com/riboseinc/metanorma
-  revision: 7ae608b1a3dfc74876c778d0c9ade75aa15bda08
+  revision: 0668a2762def57bcc8cf91ee9c1dc798cc4086d1
   specs:
-    metanorma (0.2.11)
+    metanorma (0.3.5)
+      asciidoctor
 
 GIT
   remote: https://github.com/riboseinc/metanorma-cli
-  revision: ffa3cc8545fd151febb42e8e2598b140e6e0ccde
+  revision: c3c01a093ebedb2b6a7beb0f75866306d1aa7ff9
   specs:
-    metanorma-cli (1.0.2)
-      asciidoctor-rfc (~> 0.9.0)
+    metanorma-cli (1.0.10)
       isodoc (~> 0.9.0)
-      metanorma (~> 0.2.6)
+      metanorma (~> 0.3.5)
       metanorma-acme (~> 1.0.1)
       metanorma-csand (~> 1.0.5)
       metanorma-csd (~> 1.0.5)
       metanorma-gb (~> 1.0.5)
+      metanorma-ietf (~> 1.0)
       metanorma-iso (~> 1.0.6)
       metanorma-m3d (~> 1.0.6)
+      metanorma-mpfd (~> 0.1.0)
       metanorma-rsd (~> 1.0.5)
       metanorma-standoc (~> 1.0.6)
+      metanorma-unece (~> 0.0.1)
       nokogiri
 
 GIT
   remote: https://github.com/riboseinc/metanorma-csand
-  revision: 65a4064699bfd95bb5483b626d4e490f728ae12f
+  revision: 654e527e6ff76e808e983da4db06d46ebfb00100
   specs:
-    metanorma-csand (1.0.6)
+    metanorma-csand (1.0.11)
       asciidoctor (~> 1.5.7)
       asciimath
       htmlentities (~> 4.3.4)
@@ -42,26 +45,25 @@ GIT
 
 GIT
   remote: https://github.com/riboseinc/metanorma-iso
-  revision: c50830ad0bef3f4c0a41f60096cd85162ad26388
+  revision: 06b75801d6f77bbf9eba58fd6fdba9d7823c37e0
   specs:
-    metanorma-iso (1.0.7)
+    metanorma-iso (1.0.12)
       asciidoctor (~> 1.5.7)
       iev (~> 0.2.0)
-      isodoc (~> 0.9.0)
+      isodoc (~> 0.9.8)
       metanorma-standoc (~> 1.0.0)
-      relaton (~> 0.2.0)
       ruby-jing
 
 GIT
   remote: https://github.com/riboseinc/relaton
-  revision: 6155dcf62b1cdd57e7a80ce83698a41383d14a27
+  revision: 69f9117247ab5f72bf921e62fe6ddf88098ca232
   specs:
-    relaton (0.2.6)
+    relaton (0.3.1)
       algoliasearch
       gbbib (~> 0.4.0)
       iecbib (~> 0.2.0)
       ietfbib (~> 0.4.2)
-      iso-bib-item (~> 0.4.1)
+      iso-bib-item (~> 0.4.2)
       isobib (~> 0.4.0)
 
 GEM
@@ -69,27 +71,22 @@ GEM
   specs:
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    algoliasearch (1.23.2)
+    algoliasearch (1.25.2)
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
-    asciidoctor (1.5.7.1)
-    asciidoctor-rfc (0.9.1)
-      asciidoctor (~> 1.5.7)
-      htmlentities (~> 4.3.4)
-      nokogiri
-      ruby-jing
-      thread_safe
+    asciidoctor (1.5.8)
     asciimath (1.0.6)
     camertron-eprun (1.1.1)
     cldr-plurals-runtime-rb (1.0.1)
     cnccs (0.1.3)
+    concurrent-ruby (1.1.4)
     ffi (1.9.25)
-    gb-agencies (0.0.3)
-    gbbib (0.4.0)
+    gb-agencies (0.0.5)
+    gbbib (0.4.3)
       cnccs (~> 0.1.1)
       gb-agencies (~> 0.0.1)
-      iso-bib-item (~> 0.4.1)
-    html2doc (0.8.5)
+      iso-bib-item (~> 0.4.2)
+    html2doc (0.8.6)
       asciimath
       htmlentities (~> 4.3.4)
       image_size
@@ -100,29 +97,31 @@ GEM
       uuidtools
     htmlentities (4.3.4)
     httpclient (2.8.3)
-    iecbib (0.2.0)
+    iecbib (0.2.2)
       addressable
-      iso-bib-item (~> 0.4.0)
-    ietfbib (0.4.2)
-      iso-bib-item (~> 0.4.1)
+      iso-bib-item (~> 0.4.2)
+    ietfbib (0.4.5)
+      iso-bib-item (~> 0.4.2)
     iev (0.2.0)
       nokogiri
     image_size (2.0.0)
-    iso-bib-item (0.4.1)
+    iso-639 (0.2.8)
+    iso-bib-item (0.4.4)
       isoics (~> 0.1.6)
       nokogiri (~> 1.8.4)
       ruby_deep_clone (~> 0.8.0)
-    isobib (0.4.0)
+    isobib (0.4.2)
       algoliasearch
-      iecbib (~> 0.2.0)
-      iso-bib-item (~> 0.4.0)
-    isodoc (0.9.4)
+      iecbib (~> 0.2.1)
+      iso-bib-item (~> 0.4.2)
+    isodoc (0.9.13)
       asciimath
-      html2doc (~> 0.8.1)
+      html2doc (~> 0.8.6)
       htmlentities (~> 4.3.4)
       liquid
-      metanorma (~> 0.2.7)
+      metanorma (~> 0.3.0)
       nokogiri
+      rake (~> 12.0)
       roman-numerals
       ruby-xslt
       sassc (~> 1.12.1)
@@ -131,21 +130,24 @@ GEM
     isoics (0.1.7)
     json (2.1.0)
     liquid (4.0.1)
-    metanorma-acme (1.0.1)
+    metanorma-acme (1.0.8)
       asciidoctor (~> 1.5.7)
       htmlentities (~> 4.3.4)
       isodoc (~> 0.9.0)
-      metanorma-standoc (~> 1.0.0)
+      metanorma-standoc (~> 1.0.8)
       ruby-jing
-    metanorma-csd (1.0.6)
-      isodoc (~> 0.9.0)
+    metanorma-csd (1.0.13)
+      isodoc (~> 0.9.6)
       metanorma-standoc (~> 1.0.0)
-    metanorma-gb (1.0.6)
-      gb-agencies (~> 0.0.1)
+    metanorma-gb (1.0.11)
+      gb-agencies (~> 0.0.4)
       isodoc (~> 0.9.1)
       metanorma-iso (~> 1.0.1)
       twitter_cldr
-    metanorma-m3d (1.0.7)
+    metanorma-ietf (1.0.0)
+      isodoc (~> 0.9.6)
+      metanorma-standoc (~> 1.0.0)
+    metanorma-m3d (1.0.12)
       asciidoctor (~> 1.5.7)
       asciimath
       htmlentities (~> 4.3.4)
@@ -158,18 +160,36 @@ GEM
       ruby-xslt
       thread_safe
       uuidtools
-    metanorma-rsd (1.0.6)
+    metanorma-mpfd (0.1.4)
       asciidoctor (~> 1.5.7)
       htmlentities (~> 4.3.4)
       isodoc (~> 0.9.0)
       metanorma-standoc (~> 1.0.0)
       nokogiri
-    metanorma-standoc (1.0.7)
+      twitter_cldr
+    metanorma-rsd (1.0.12)
       asciidoctor (~> 1.5.7)
+      htmlentities (~> 4.3.4)
+      isodoc (~> 0.9.0)
+      metanorma-standoc (~> 1.0.0)
+      nokogiri
+    metanorma-standoc (1.0.13)
+      asciidoctor (~> 1.5.7)
+      concurrent-ruby
       iev (~> 0.2.0)
       isodoc (~> 0.9.0)
-      relaton (~> 0.2.2)
+      relaton (~> 0.3.1)
       ruby-jing
+      sterile
+    metanorma-unece (0.0.7)
+      asciidoctor (~> 1.5.7)
+      htmlentities (~> 4.3.4)
+      iso-639
+      isodoc (~> 0.9.0)
+      metanorma-standoc (~> 1.0.0)
+      roman-numerals
+      ruby-jing
+      twitter_cldr
     mime-types (3.2.2)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2018.0812)
@@ -178,15 +198,16 @@ GEM
       mini_portile2 (~> 2.3.0)
     optout (0.0.2)
     public_suffix (3.0.3)
+    rake (12.3.2)
     rb-fsevent (0.10.3)
-    rb-inotify (0.9.10)
-      ffi (>= 0.5.0, < 2)
+    rb-inotify (0.10.0)
+      ffi (~> 1.0)
     roman-numerals (0.3.0)
     ruby-jing (0.0.1)
       optout (>= 0.0.2)
     ruby-xslt (0.9.10)
     ruby_deep_clone (0.8.0)
-    sass (3.6.0)
+    sass (3.7.2)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -194,6 +215,8 @@ GEM
     sassc (1.12.1)
       ffi (~> 1.9.6)
       sass (>= 3.3.0)
+    sterile (1.0.13)
+      nokogiri
     thread_safe (0.3.6)
     twitter_cldr (4.4.3)
       camertron-eprun
@@ -214,4 +237,4 @@ DEPENDENCIES
   relaton!
 
 BUNDLED WITH
-   1.16.2
+   1.17.1
