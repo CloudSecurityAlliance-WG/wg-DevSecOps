@@ -1,0 +1,143 @@
+<bibitem type="international-standard" id="ISO/IEC27002">
+  <fetched>2018-12-20</fetched>
+  <title format="text/plain" language="en" script="Latn">Information technology -- Security techniques -- Code of practice for information security controls</title>
+  <title format="text/plain" language="fr" script="Latn">Technologies de l'information -- Techniques de sécurité -- Code de bonne pratique pour le management de la sécurité de l'information</title>
+  <uri type="src">https://www.iso.org/standard/54533.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:54533:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/05/45/54533.detail.rss</uri>
+  <docidentifier type="ISO">ISO/IEC 27002</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Electrotechnical Commission</name>
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>2</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>92</substage>
+  </status>
+  <copyright>
+    <from>2013</from>
+    <owner>
+      <organization>
+        <name>ISO/IEC</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO/IEC 27002:2005</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem>
+      <formattedref>ISO/IEC 27002:2013/Cor 1:2014</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem>
+      <formattedref>ISO/IEC 27002:2013/Cor 2:2015</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO/IEC NP 27002</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="instance">
+    <bibitem type="international-standard">
+      <fetched>2018-12-20</fetched>
+      <title format="text/plain" language="en" script="Latn">Information technology -- Security techniques -- Code of practice for information security controls</title>
+      <title format="text/plain" language="fr" script="Latn">Technologies de l'information -- Techniques de sécurité -- Code de bonne pratique pour le management de la sécurité de l'information</title>
+      <uri type="src">https://www.iso.org/standard/54533.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:54533:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/05/45/54533.detail.rss</uri>
+      <docidentifier type="ISO">ISO/IEC 27002:2013</docidentifier>
+      <date type="published">
+        <on>2013</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Electrotechnical Commission</name>
+          <abbreviation>IEC</abbreviation>
+          <uri>www.iec.ch</uri>
+        </organization>
+      </contributor>
+      <edition>2</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="plain" language="en" script="Latn">ISO/IEC 27002:2013 gives guidelines for organizational information security standards and information security management practices including the selection, implementation and management of controls taking into consideration the organization's information security risk environment(s).It is designed to be used by organizations that intend to:</abstract>
+      <abstract format="plain" language="fr" script="Latn">L'ISO 27002:2013 donne des lignes directrices en matière de normes organisationnelles relatives à la sécurité de l'information et des bonnes pratiques de management de la sécurité de l'information, incluant la sélection, la mise en ?uvre et la gestion de mesures de sécurité prenant en compte le ou les environnement(s) de risques de sécurité de l'information de l'organisation.L'ISO 27002:2013 est élaborée à l'intention des organisations désireuses de sélectionner les mesures nécessaires dans le cadre du processus de mise en ?uvre d'un système de management de la sécurité de l'information (SMSI) selon l'ISO/CEI 27001; de mettre en ?uvre des mesures de sécurité de l'information largement reconnues; et d'élaborer leurs propres lignes directrices de management de la sécurité de l'information.</abstract>
+      <status>
+        <stage>90</stage>
+        <substage>92</substage>
+      </status>
+      <copyright>
+        <from>2013</from>
+        <owner>
+          <organization>
+            <name>ISO/IEC</name>
+          </organization>
+        </owner>
+      </copyright>
+      <relation type="obsoletes">
+        <bibitem>
+          <formattedref>ISO/IEC 27002:2005</formattedref>
+        </bibitem>
+      </relation>
+      <relation type="updates">
+        <bibitem>
+          <formattedref>ISO/IEC 27002:2013/Cor 1:2014</formattedref>
+        </bibitem>
+      </relation>
+      <relation type="updates">
+        <bibitem>
+          <formattedref>ISO/IEC 27002:2013/Cor 2:2015</formattedref>
+        </bibitem>
+      </relation>
+      <relation type="obsoletes">
+        <bibitem>
+          <formattedref>ISO/IEC NP 27002</formattedref>
+        </bibitem>
+      </relation>
+      <editorialgroup>
+        <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 27IT Security techniques</technical_committee>
+      </editorialgroup>
+      <ics>
+        <code>35.030</code>
+        <text>IT Security</text>
+      </ics>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 27IT Security techniques</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>35.030</code>
+    <text>IT Security</text>
+  </ics>
+</bibitem>

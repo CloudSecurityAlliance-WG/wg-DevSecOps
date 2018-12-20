@@ -1,0 +1,141 @@
+<bibitem type="international-standard" id="ISO/IEC27001">
+  <fetched>2018-12-20</fetched>
+  <title format="text/plain" language="en" script="Latn">Information technology -- Security techniques -- Information security management systems -- Requirements</title>
+  <title format="text/plain" language="fr" script="Latn">Technologies de l'information -- Techniques de sécurité -- Systèmes de management de la sécurité de l'information -- Exigences</title>
+  <uri type="src">https://www.iso.org/standard/54534.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:54534:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/05/45/54534.detail.rss</uri>
+  <docidentifier type="ISO">ISO/IEC 27001</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Electrotechnical Commission</name>
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>2</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2013</from>
+    <owner>
+      <organization>
+        <name>ISO/IEC</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO/IEC 27001:2005</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem>
+      <formattedref>ISO/IEC 27001:2013/Cor 1:2014</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem>
+      <formattedref>ISO/IEC 27001:2013/Cor 2:2015</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="instance">
+    <bibitem type="international-standard">
+      <fetched>2018-12-20</fetched>
+      <title format="text/plain" language="en" script="Latn">Information technology -- Security techniques -- Information security management systems -- Requirements</title>
+      <title format="text/plain" language="fr" script="Latn">Technologies de l'information -- Techniques de sécurité -- Systèmes de management de la sécurité de l'information -- Exigences</title>
+      <uri type="src">https://www.iso.org/standard/54534.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:54534:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/05/45/54534.detail.rss</uri>
+      <docidentifier type="ISO">ISO/IEC 27001:2013</docidentifier>
+      <date type="published">
+        <on>2013</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Electrotechnical Commission</name>
+          <abbreviation>IEC</abbreviation>
+          <uri>www.iec.ch</uri>
+        </organization>
+      </contributor>
+      <edition>2</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="plain" language="en" script="Latn">ISO/IEC 27001:2013 specifies the requirements for establishing, implementing, maintaining and continually improving an information security management system within the context of the organization. It also includes requirements for the assessment and treatment of information security risks tailored to the needs of the organization. The requirements set out in ISO/IEC 27001:2013 are generic and are intended to be applicable to all organizations, regardless of type, size or nature.</abstract>
+      <abstract format="plain" language="fr" script="Latn">L'ISO/CEI 27001:2013 spécifie les exigences relatives à l'établissement, à la mise en uvre, à la mise à jour et à l'amélioration continue d'un système de management de la sécurité de l'information dans le contexte d'une organisation. Elle comporte également des exigences sur l'appréciation et le traitement des risques de sécurité de l'information, adaptées aux besoins de l'organisation. Les exigences fixées dans l'ISO/CEI 27001:2013 sont génériques et prévues pour s'appliquer à toute organisation, quels que soient son type, sa taille et sa nature. Il n'est pas admis qu'une organisation s'affranchisse de l'une des exigences spécifiées aux Articles 4 à 10 lorsqu'elle revendique la conformité à l'ISO/CEI 27001:2013.</abstract>
+      <status>
+        <stage>90</stage>
+        <substage>60</substage>
+      </status>
+      <copyright>
+        <from>2013</from>
+        <owner>
+          <organization>
+            <name>ISO/IEC</name>
+          </organization>
+        </owner>
+      </copyright>
+      <relation type="obsoletes">
+        <bibitem>
+          <formattedref>ISO/IEC 27001:2005</formattedref>
+        </bibitem>
+      </relation>
+      <relation type="updates">
+        <bibitem>
+          <formattedref>ISO/IEC 27001:2013/Cor 1:2014</formattedref>
+        </bibitem>
+      </relation>
+      <relation type="updates">
+        <bibitem>
+          <formattedref>ISO/IEC 27001:2013/Cor 2:2015</formattedref>
+        </bibitem>
+      </relation>
+      <editorialgroup>
+        <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 27IT Security techniques</technical_committee>
+      </editorialgroup>
+      <ics>
+        <code>03.100.70</code>
+        <text>Management systems</text>
+      </ics>
+      <ics>
+        <code>35.030</code>
+        <text>IT Security</text>
+      </ics>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 27IT Security techniques</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>03.100.70</code>
+    <text>Management systems</text>
+  </ics>
+  <ics>
+    <code>35.030</code>
+    <text>IT Security</text>
+  </ics>
+</bibitem>

@@ -1,0 +1,66 @@
+<bibitem type="international-standard" id="ISO/IEC27000-2018">
+  <fetched>2018-12-20</fetched>
+  <title format="text/plain" language="en" script="Latn">Information technology -- Security techniques -- Information security management systems -- Overview and vocabulary</title>
+  <title format="text/plain" language="fr" script="Latn">Technologies de l'information -- Techniques de sécurité -- Systèmes de management de la sécurité de l'information -- Vue d'ensemble et vocabulaire</title>
+  <uri type="src">https://www.iso.org/standard/73906.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:73906:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/07/39/73906.detail.rss</uri>
+  <docidentifier type="ISO">ISO/IEC 27000:2018</docidentifier>
+  <date type="published">
+    <on>2018</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Electrotechnical Commission</name>
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>5</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="plain" language="en" script="Latn">ISO/IEC 27000:2018 provides the overview of information security management systems (ISMS). It also provides terms and definitions commonly used in the ISMS family of standards. This document is applicable to all types and sizes of organization (e.g. commercial enterprises, government agencies, not-for-profit organizations).The terms and definitions provided in this document-      cover commonly used terms and definitions in the ISMS family of standards;-      do not cover all terms and definitions applied within the ISMS family of standards; and-      do not limit the ISMS family of standards in defining new terms for use.</abstract>
+  <abstract format="plain" language="fr" script="Latn">ISO/IEC 27000:2018 offre une vue d'ensemble des systèmes de management de la sécurité de l'information (SMSI). Il comprend également les termes et définitions d'usage courant dans la famille de normes du SMSI. Le présent document est applicable à tous les types et à toutes les tailles d'organismes (par exemple: les entreprises commerciales, les organismes publics, les organismes à but non lucratif).Les termes et les définitions fournis dans le présent document:-      couvrent les termes et les définitions d'usage courant dans la famille de normes du SMSI;-      ne couvrent pas l'ensemble des termes et des définitions utilisés dans la famille de normes du SMSI;-      ne limitent pas la famille de normes du SMSI en définissant de nouveaux termes à utiliser.</abstract>
+  <status>
+    <stage>60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2018</from>
+    <owner>
+      <organization>
+        <name>ISO/IEC</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO/IEC 27000:2016</formattedref>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 27IT Security techniques</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>01.040.35</code>
+    <text>Information technology (Vocabularies)</text>
+  </ics>
+  <ics>
+    <code>03.100.70</code>
+    <text>Management systems</text>
+  </ics>
+  <ics>
+    <code>35.030</code>
+    <text>IT Security</text>
+  </ics>
+</bibitem>
