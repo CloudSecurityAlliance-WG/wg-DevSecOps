@@ -1,7 +1,0 @@
-
-[bibliography]
-== Normative References
-
-* [[[CCM301,CSA CCM 3.0.1]]], _Cloud Security Alliance Cloud Controls Matrix, v3.0.1_
-
-* [[[ISO27001,ISO/IEC 27001]]], _Information technology -- Security techniques -- Information security management systems -- Requirements_

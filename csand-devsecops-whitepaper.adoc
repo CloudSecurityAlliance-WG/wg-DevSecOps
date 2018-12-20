@@ -19,25 +19,453 @@
 
 :sectnums!:
 
-include::sections/00-foreword.adoc[]
-include::sections/00-introduction.adoc[]
+
+.Foreword
+
+The Cloud Security Alliance ("`CSA`") is global non-profit
+organization with the aim to facilitate and protect user information in the
+cloud and its ecosystem.
+
+////
+TODO
+
+The procedures used to develop this document and those intended for its further
+maintenance are described in the CSA Directives.
+
+In particular the different approval criteria needed for the different types of
+CSA documents should be noted. This document was drafted in accordance with the
+editorial rules of the CSA Directives.
+////
+
+Attention is drawn to the possibility that some of the elements of this
+document may be the subject of patent rights. CSA shall not be held responsible
+for identifying any or all such patent rights. Details of any patent rights
+identified during the development of the document will be in the Introduction
+and/or on the CSA list of patent declarations received (see
+www.cloudsecurityalliance.com/patents).
+
+Any trade name used in this document is information given for the convenience
+of users and does not constitute an endorsement.
+
+This document was prepared by the Cloud Security Alliance _{technical-committee}_
+working group.
+
+
+
+[[introduction]]
+== Introduction
+
+=== Background
+
+DevOps, the practice of applying developmental practices on infrastructure operations, has been shown to positively impact efficiencies of operation teams today, especially in the cloud environment.
+
+Given its strengthening adoption, it is a logical next step in applying those practices to the arena of security management, as well as considering its impact on security itself.
+
+=== Application to security
+
+DevOps is now broadly practiced but it has been generally separated from security practices. There is currently no standardized term in industry that cater to this aspect.
+
+To explain the intersection of security and DevOps, as well as the amalgamation of security, development and operations practices, a number of terms have been proposed by members of community, including "`DevOpsSec`", "`DevSecOps`", "`SecDevOps`".
+
+These terms have been used mostly interchangeably, but the meanings they convey can be vastly different. The definitions of these terms can widely conflict with each other depending on the particular understanding of the reader.
+
+Moreover, there is no industry recognized definition for security automation, which is a core concept to the application of DevOps practices to security operations, leading to confusion and misinterpretations.
+
+It is therefore crucial to clarify and standardize such terms for a global and wider industry audience.
+
+
+=== External pressure to organizations
+
+Organizations today are faced with a number of security management issues, including:
+
+* spiralling compliance governance costs;
+
+* Faster to market - deployment
+
+* Complex hybrib and cross cloud solutions
+
+* LImited security skills ain DevOps
+
+* global shortage of cyber security professionals, which forces organizations to more efficiently utilize staff;
+
+* the notable disconnect between strategic security and operational security.
+
+All of these factors force an organization to deliver security more effectively and efficiently.
+
+
+=== Purpose
+
+This whitepaper aims to clarify and standardize an authoritative definition of the intersection between the three aspects of security, development and operations, and use it to generalize the principles of a novel security management approach we call "`Agile Security`".
+
+Several approaches to Agile Security are suggested to resolve the availability gap of cyber security professionals.
+
 
 :sectnums:
 
-include::sections/01-scope.adoc[]
-include::sections/02-references.adoc[]
-include::sections/03-terms.adoc[]
-include::sections/04-devops.adoc[]
-include::sections/05-questions.adoc[]
-include::sections/06-devopssec.adoc[]
-include::sections/07-devsecops.adoc[]
-include::sections/08-devsec.adoc[]
-include::sections/09-agile-security.adoc[]
-include::sections/10-agile-pillars.adoc[]
-include::sections/11-agile-benefits.adoc[]
-include::sections/12-conclusion.adoc[]
 
-include::sections/99-bibliography.adoc[]
+[[scope]]
+== Scope
 
-include::sections/a0-guidelines.adoc[]
-include::sections/a1-agile-not.adoc[]
+This document:
+
+* provides formalized definitions for the terms "`DevOpsSec`", "`DevSecOps`" and "`SecDevOps`";
+
+* describes the benefits of amalgamating security, development and operation practices for integrated management;
+
+* describes the "`Agile Security`" approach that represents a new paradigm in security management.
+
+
+
+[bibliography]
+== Normative References
+
+* [[[CCM301,CSA CCM 3.0.1]]], _Cloud Security Alliance Cloud Controls Matrix, v3.0.1_
+
+* [[[ISO27001,ISO/IEC 27001]]], _Information technology -- Security techniques -- Information security management systems -- Requirements_
+
+
+
+[[terms]]
+== Terms and definitions
+
+
+
+
+[[devops]]
+== Essence of DevOps
+
+=== General
+
+While the term "`DevOps`" has been widely defined by its practices and toolsets, there are several conflicting definitions on what the term really represents.
+
+Some of them are too narrow while some are too broad to be meaningful. For example, the Wikipedia article on DevOps claims it is "`a set of practices that emphasize the collaboration and communication of both software developers and information technology (IT) professionals while automating the process of software delivery and infrastructure changes`", which is too vague, too broad as well as inaccurate.
+
+"`DevOps`" practices today have minimal, if any, impact on software application development process itself. Its practices and related tools mainly service infrastructure automation, through concepts made apparent by Agile software development practices, such as continuous integration and delivery and programmatic (software-defined) infrastructure.
+
+=== Definition
+
+In this document, we clarify the following definition:
+
+DevOps:: The cross-application of software development and methodologies to infrastructure operations, chiefly for deplyment, configuration management and environmental and infrastructure management.
+
+
+
+
+[[questions]]
+== The (right) questions worth answering
+
+Given the strong acclaim of DevOps practices, it is worth understanding how similar concepts affect security.
+
+Here are the important questions we answer below:
+
+* What is the impact of DevOps practices on security?
+
+* How do we build in threat risk?
+
+* How do we monitor and control this to know it is getting done?
+
+* How do we provide security through DevOps?
+
+* How does an organization implement security through automation?
+
+
+
+[[dos]]
+== DevOpsSec: Impact of DevOps practices on security
+
+=== General
+
+What is the impact of DevOps practices on security? Or more specifically, how do organizations ensure that DevOps does not compromise security? This has been called "`DevOpsSec`": "`DevOps`" security. DevOps practices bring strong impact on resulting infrastructure and operations. There are inherent security requirements in DevOps processes.
+
+
+=== Definition
+
+DevOpsSec ("`DOS`"):: The embedding of information security principles to protect processes that utilize DevOps practices.
+// not sure I agree with this   Is this not the imbedding of controls into the DevOps principles and practices to as to improve the migration from Dev to Ops in a way that risk is managed?????
+
+
+=== Implications
+
+A software-defined infrastructure is highly beneficial for the experienced infrastructure engineer, where virtual instances, containers, and virtual network devices are spin up or down through fingertips on the keyboard or automated/on demand.
+
+Yet, as best put by Spiderman, power bring responsibility. It is equally true that the novice engineer armed with some development skill could expose the organization to significant risk at the touch of a keyboard. Very often, create security vulnerabilities due to lack of consideration of all aspects surrounding the infrastructure. E.g. lax firewall rulesets, default credentials or increased attack surface.
+
+This happens more often than one thinks. As ironic it may be, software development and infrastructure administration are generally separate skill sets that doing one well does not necessary translate to the all three. Anecdotes of novice developers attempting to use "`DevOps`" in running infrastructure causing moments of reflection abound.
+
+In this document, we will describe the crucial security practices for protecting DevOps processes and preventing DevOps operations/actions from exposing threats.
+
+// [TBD: add examples on risk of DevOps]
+
+
+[[dso]]
+== DevSecOps: providing security through DevOps
+
+=== General
+
+How do we provide security through DevOps? Despite this question containing similar keywords to the previous one, it is an even more important question. Is it possible to apply DevOps concepts, where development practices can and have enhanced operations efficiency, onto security? Some have called this "`DevSecOps`" for "`Security DevOps`".
+// This needs rephrasing
+
+
+=== Definition
+
+DevSecOps ("`DSO`"):: The automation of information security processes through DevOps practices.
+// Why we saying automation?  Is this not the implementation of controls into the DevOps and more???
+
+
+
+=== Implications
+
+
+On a tactical level, DSO represents the "`integration and automation of security controls through DevOps using automated toolchains`". The CSO sets the policies following business requirements and risk management, which could be applied programmatically.
+
+Examples of DSO practices:
+
+* Infrastructure
+
+** Immutable infrastructures
+
+* QA
+
+** Implementation of data masking of data used in development for testing
+
+* Containers
+
+** Vulnerability scanning when building container images
+
+** Patch management of applications and libraries inside containers
+
+** Hardening / secure configuration, self-healing
+
+** PKI / Digital signatures
+
+** Anti-virus scan during building of container images
+
+** Certify container images
+
+** Scan for embedded keys, hardcoded credentials, push for role based access technology
+
+** Cryptographically signed and certified container images
+
+* Operating systems / VM images
+
+** Vulnerability scanning during building of VM images
+
+** Patch management of applications and libraries of the operating system
+
+** Hardening / secure configuration, self-healing
+
+** Anti-virus scan during building of VM images
+
+** Cryptographically signed and certified VM images
+
+* Code / applications
+
+** Static code analysis after code commits, builds or releases
+
+** Scanning for embedded keys, hardcoded credentials, push for role based access
+// What about IAST, RASP, DAST
+
+
+* Release management
+// make mention of CI/CD ????
+
+** Create new public/private keys for each release
+
+** Only accept signed/certified container and OS images
+
+** Revocation of older SSL certificates / private keys / PKI after each release
+
+
+
+[[ds]]
+== DevSec: Automating security practices
+
+=== General
+
+How do organizations implement security using automation? This is a generalized question from the previous one about security automation, no longer limited to DevOps. DevOps practices generally only helps with infrastructure automation. What should an organization do to fully utilize automation in achievement of security?
+// Are there other questions to ask here, should we list them, it looks like we explaining why we did is and not related to the section question, suggest a reprasing
+
+
+=== Definition
+
+DevSec, security automation:: The use of automation in place of manual processes for the achievement of information security management.
+
+
+=== Implications
+
+"`Security as Code`" is not equivalent to security automation because it does not require the "`programmatic`" ability.
+
+[example]
+A scripted application of the DOD Security Technical Implementation Guides (STIG) may still have to be run manually during the installation of a server.
+
+
+Examples of security automation:
+
+* Business Continuity
+** Automatic business continuity plan testing through Infrastructure as Code (IaC)
+** Continuous backup and restore testing with data masking
+
+* SSL Certificates and Public Key Infrastructure
+** Monitoring and auto renewal of SSL certificates
+** Testing of expiry dates of SSL certificates
+** Private and public key rotation
+
+* Identity and Access management
+
+* Infrastructure
+** Vulnerability scanning of servers, VMs, containers, appliances during runtime
+** Anti-virus scan during runtime
+
+
+
+
+[[agile-sec]]
+== Agile Security: the new paradigm
+
+Problem: CSO's do not have sufficient number of security staff.
+
+//[ TODO: Describe the ITIL operational gap ]
+
+Agile Security is a new paradigm for information security management, that emphasizes embodiment of security across organizational roles, reactive to external and internal threats in an agile and dynamic way.
+
+NOTE: Agile Security compares to Agile Software Development, similar to how the traditional ISMS approach compares to the Waterfall methodology.
+
+Agile Security is about dynamic information exchange within the organization   Is this really so *. Like the immune system of the human body, information is immediately propagated to adjacent, potentially vulnerable functions given detection of a threat. A traditional ISMS approach will require that threat information be reported back to the higher functions before any response is made. With Agile Security, the business functions themselves are integrated security functions and can provide an immediate response to block potential impact. A centralized response is important, but should not prohibit an immediate tactical approach.
+
+The ISMS approach is about adopting best practices. However, often best practices that work in larger organizations do not work with smaller ones, and create an unnecessary burden for the smaller organizations, which takes away precious time and effort from daily work and hence negatively affects their security stances.
+// break down the paragraph in smaller chunks
+
+Agile Security solves the security skill shortage paradox by promoting the idea of "`hybrid-domain-security-experts`".
+
+* Risks are delegated
+// what does this mean
+
+* Security responsibilities are delegated or automated
+
+A "`commitment`" of top leadership (as in ISMS) is not enough. Top leadership must understand the nature of security and be committed to integrating security into each and every aspect of the organization. Top leadership must fully understand the risks and threats the organization faces (its risk profile) with regards to security, and set clear boundaries and requirements for personnel to adhere to.
+
+Humans, it is often said, are the weakest link in security. Phishing, social engineering are all techniques to trick an unsuspecting individual to voluntarily compromise security of an organization. Without full participation (not just "`awareness`") of all involved people, security cannot be achieved.
+
+
+
+
+[[agile-pillars]]
+== Six pillars of Agile Security
+
+=== Collectively responsible
+
+Everyone is responsible for the security stance of the organization. The CSO plays a leadership and shepherding role for information security within an organization, but each person has their own security responsibility, and they must contribution (and potential problems) towards the organization's security stance. Edge users are not just "`security-aware`", but are the first line of defence.
+// what does edge mean - not defined
+
+=== Collaborate
+
+Security can only be achieved through collaboration, not confrontation. A security aware and collaborative culture is necessary for the foot soldiers to report potential anomalies. The human factor is often the weakest link and that most security incidents are caused by simple human error.
+
+=== Pragmatic
+
+Security should provide value, not hindrance. For every security initiative or adopted security control, a cost-benefit should be considered to allow transparency on the value of security. Without this pragmatic approach, it is too easy for persons unaware of the benefits of security to dismiss security practices as mere overhead or unnecessary. This provides the necessary business case to convince stakeholders of security requirements and confidence to execute plans effectively.
+// Firsst part needs review
+
+Traditional ISMS can create overhead, and needs balanced tailoring to an organization and adoption of best practices. Documentation requirements should be based on clearly thought out value brought to the organization, not a hard requirement.
+// Where does this really go, maybe not here
+
+
+=== Integrate
+
+Security must be integrated in every aspect of the business. Dedicated security personnel rarely have in-depth domain expertise similar to your business domain experts. The truth is, no one else will know your domain, as well as its risks, as your business domain experts. A team of dedicated security experts will most likely be oblivious to your domain-specific security issues. Domain knowledge and security knowledge must be fused and co-exist in every organizational process for effective security management.
+
+=== Automate
+
+Automated security practices are the core of optimizing process efficiency. Processes that can be automated should be automated, and those that can't should be transformed. Automation also creates its own set of problems but automated approaches to those problems are often possible. There is a saying in software development: if you do the same thing thrice, it's time to program it, and this applies similarly with Agile Security
+// what does transfirmed mean
+
+=== Measure
+
+Performance that cannot be measured cannot be improved. Without measurements, there is no formal evidence whether information security management is effective. Agile Security is about achieving results, and even as vague as they might be, the results must be measurable for transparency and improvement.
+
+
+
+[[agile-sec-benefits]]
+== Benefits of Agile Security
+
+* Resilient: Security no longer relies on a single function, e.g. a single security department. Integration of security practices throughout the organization. Requires deeper involvement when compared to ISMS processes.
+
+* Holistic: Focused on business needs and responding to the actual risk context of the organization when compared to traditional information security management, from business goals to operational processes to humans, who often turn out to be the weakest link.
+// long sentance and can be rephrased
+
+* Dynamic: The protection of business goals is performed through integrating security with business processes, often down to the tactical levels. This allowing the organization to react faster and more effectively to threats and incidents.
+
+* Tailored: Prioritized approach to provision stronger protection to core or more vulnerable processes over those less exploitable. The traditional ISMS approach often applies the same set of controls across all processes, leading to inefficient resource allocation.
+
+* Human-centric: Security is integrated and internalized aspect of everyone's work, and requires mind-share within every employee. It is not an external responsibility enforced or required by a separate, dedicated, security function.
+
+* Maturity of an Agile Security approach can lead to achieving a formal ISMS given the need.
+// is this a final/closing statement
+
+
+
+[[conclusion]]
+== Conclusion
+
+Agile Security provides a set of wide-implicating and easily understandable principles that affect an organization's cybersecurity posture and is especially suitable for today's fast-paced and challenging cybersecurity landscape.
+
+
+
+[bibliography]
+== Bibliography
+
+* [[[ISO27000,ISO/IEC 27000:2018]]], _Information technology -- Security techniques -- Information security management systems -- Overview and vocabulary_
+
+* [[[ISO27002,ISO/IEC 27002]]], _Information technology -- Security techniques -- Information security management systems -- Code of practice for information security controls_
+
+* [[[ISO31000,ISO 31000]]], _Risk management -- Guidelines_
+
+//TODO: Add PCI-DSS, CSA assurance programs, HIPAA, etc.
+
+
+
+[appendix]
+== Guidelines for implementing Agile Security
+
+=== Approach A: Cross-train
+
+Form an operational security function by selecting 1 or 2 persons that have an interest or background in security from each Business Unit and delegate security related tasks to those individuals. Make these persons a representative of the operational security teams.
+
+The operational security teams know exactly what types of operating systems are used, applications are supported for the business, etc. In some organizations, this collaboration involves embedding IT operations specialists within software development teams, thus forming a cross-functional team. This effort may also be combined with a skills matrix.
+
+
+=== Approach B: Delegate
+
+Delegate risk management, maintenance of BCPs etc. to department heads. Freeing up resources of the dedicated security team so they can focus on the security process management and providing the framework(s). The department heads know exactly what they have in house, what risks there are.
+
+DevOps is process neutral. Organizations can use Agile or Scrum. Have security engineers attend daily scrum meetings, make them part of the DevOps team.
+// seems a little out of context
+
+////
+=== Spiraling governance costs
+
+Lower costs by using security automation
+
+Operating system patching results in downtime due to the sheer volume of patches and patching can result in unplanned downtime due to inability to test patches across the chain.
+
+////
+
+
+
+[appendix]
+== What Agile Security is not
+
+TODO: Placeholder if we need it.
+
+////
+WHAT AGILE SECURITY IS NOT
+
+AGILE SECURITY COMPARED TO ISMS
+
+AGILE SECURITY REQUIRES FULL COMMITMENT
+
+Agile Security works well with multi-skilled and matrix organizational structures.
+
+////
+
+
