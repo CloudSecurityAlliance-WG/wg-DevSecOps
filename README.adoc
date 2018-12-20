@@ -1,25 +1,70 @@
 = CSA DevSecOps WG: Agile Security position paper
 
+This work item belongs to the DevSecOps WG.
+
+image:https://travis-ci.com/CloudSecurityAlliancePublic/wg-DevSecOps.svg?branch=master["Build Status", link="https://travis-ci.com/CloudSecurityAlliancePublic/wg-DevSecOps"]
+
+This document is available in its rendered forms here:
+
+* https://CloudSecurityAlliancePublic.github.io/wg-DevSecOps/[CSA Agile Security position paper (HTML)]
+* https://CloudSecurityAlliancePublic.github.io/wg-DevSecOps/csand-devsecops-whitepaper.pdf[PDF]
+* https://CloudSecurityAlliancePublic.github.io/wg-DevSecOps/csand-devsecops-whitepaper.xml[Metanorma XML]
+* https://CloudSecurityAlliancePublic.github.io/wg-DevSecOps/csand-devsecops-whitepaper.rxl[Relaton XML (Bibliographic item)]
+
 == Introduction
 
 This document describes the rationale, definitions and benefits of DevSecOps and its related practices.
 
-== Getting started
+This document is written in AsciiDoc using https://www.metanorma.com/software/metanorma-csand/[Metanorma-CSAND], the Metanorma flavor for "`CSA Normal Documents`".
+
+
+== Usage
 
 === General
 
-This document is written in AsciiDoc using https://www.metanorma.com/software/metanorma-csand/[Metanorma-CSAND], the Metanorma flavor for "`CSA Normal Documents`".
+This document is built using https://www.metanorma.com[Metanorma].
 
-=== Installation
 
-See https://www.metanorma.com/overview/getting-started/
+=== Fetching the document
 
-=== Building/Iterating the document
+[source,sh]
+----
+git clone https://github.com/riboseinc/{repo-name}/
+----
+
+
+=== Installing Build Tools
+
+See the https://www.metanorma.com/overview/getting-started/[Metanorma Quick Start Guide]
+for more information.
+
+
+=== Building The Document
 
 [source,sh]
 ----
 make clean all
-open csand-*.html
 ----
 
+The following outputs will be built:
+
+* CSAND XML (`[filename].xml`)
+* HTML (`[filename].html`)
+* PDF (`[filename].pdf`)
+* Word DOC (`[filename].doc`)
+
+
+== Iterating the document
+
+[source,sh]
+----
+make html
+open *.html
+----
+
+
+
+== Deployment
+
+The built artifacts are automatically deployed on GitHub pages.
 

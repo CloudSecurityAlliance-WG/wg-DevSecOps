@@ -14,6 +14,9 @@
 :stem:
 :xrefstyle: short
 :imagesdir: images
+:docfile: csand-devsecops-whitepaper.adoc
+:mn-document-class: csand
+:mn-output-extensions: xml,pdf,html,doc
 :local-cache-only:
 :data-uri-image:
 
@@ -82,7 +85,7 @@ Organizations today are faced with a number of security management issues, inclu
 
 * Faster to market - deployment
 
-* Complex hybrib and cross cloud solutions
+* Complex hybrid and cross cloud solutions
 
 * LImited security skills ain DevOps
 
@@ -146,7 +149,7 @@ Some of them are too narrow while some are too broad to be meaningful. For examp
 
 In this document, we clarify the following definition:
 
-DevOps:: The cross-application of software development and methodologies to infrastructure operations, chiefly for deplyment, configuration management and environmental and infrastructure management.
+DevOps:: The cross-application of software development and methodologies to infrastructure operations, chiefly for deployment, configuration management and environmental and infrastructure management.
 
 
 
@@ -181,7 +184,8 @@ What is the impact of DevOps practices on security? Or more specifically, how do
 === Definition
 
 DevOpsSec ("`DOS`"):: The embedding of information security principles to protect processes that utilize DevOps practices.
-// not sure I agree with this   Is this not the imbedding of controls into the DevOps principles and practices to as to improve the migration from Dev to Ops in a way that risk is managed?????
+// Not sure I agree with this
+// Is this not the embedding of controls into the DevOps principles and practices to as to improve the migration from Dev to Ops in a way that risk is managed?
 
 
 === Implications
@@ -283,7 +287,8 @@ Examples of DSO practices:
 === General
 
 How do organizations implement security using automation? This is a generalized question from the previous one about security automation, no longer limited to DevOps. DevOps practices generally only helps with infrastructure automation. What should an organization do to fully utilize automation in achievement of security?
-// Are there other questions to ask here, should we list them, it looks like we explaining why we did is and not related to the section question, suggest a reprasing
+
+// Are there other questions to ask here, should we list them, it looks like we explaining why we did is and not related to the section question, suggest a rephrasing
 
 
 === Definition
@@ -330,7 +335,9 @@ Agile Security is a new paradigm for information security management, that empha
 
 NOTE: Agile Security compares to Agile Software Development, similar to how the traditional ISMS approach compares to the Waterfall methodology.
 
-Agile Security is about dynamic information exchange within the organization   Is this really so *. Like the immune system of the human body, information is immediately propagated to adjacent, potentially vulnerable functions given detection of a threat. A traditional ISMS approach will require that threat information be reported back to the higher functions before any response is made. With Agile Security, the business functions themselves are integrated security functions and can provide an immediate response to block potential impact. A centralized response is important, but should not prohibit an immediate tactical approach.
+Agile Security is about enabling dynamic information exchange within the organization.
+// Is this really so *.
+Like the immune system of the human body, information is immediately propagated to adjacent, potentially vulnerable functions given detection of a threat. A traditional ISMS approach will require that threat information be reported back to the higher functions before any response is made. With Agile Security, the business functions themselves are integrated security functions and can provide an immediate response to block potential impact. A centralized response is important, but should not prohibit an immediate tactical approach.
 
 The ISMS approach is about adopting best practices. However, often best practices that work in larger organizations do not work with smaller ones, and create an unnecessary burden for the smaller organizations, which takes away precious time and effort from daily work and hence negatively affects their security stances.
 // break down the paragraph in smaller chunks
@@ -364,7 +371,7 @@ Security can only be achieved through collaboration, not confrontation. A securi
 === Pragmatic
 
 Security should provide value, not hindrance. For every security initiative or adopted security control, a cost-benefit should be considered to allow transparency on the value of security. Without this pragmatic approach, it is too easy for persons unaware of the benefits of security to dismiss security practices as mere overhead or unnecessary. This provides the necessary business case to convince stakeholders of security requirements and confidence to execute plans effectively.
-// Firsst part needs review
+// First part needs review
 
 Traditional ISMS can create overhead, and needs balanced tailoring to an organization and adoption of best practices. Documentation requirements should be based on clearly thought out value brought to the organization, not a hard requirement.
 // Where does this really go, maybe not here
@@ -376,8 +383,8 @@ Security must be integrated in every aspect of the business. Dedicated security 
 
 === Automate
 
-Automated security practices are the core of optimizing process efficiency. Processes that can be automated should be automated, and those that can't should be transformed. Automation also creates its own set of problems but automated approaches to those problems are often possible. There is a saying in software development: if you do the same thing thrice, it's time to program it, and this applies similarly with Agile Security
-// what does transfirmed mean
+Automated security practices are the core of optimizing process efficiency. Processes that can be automated should be automated, and those that can't should be transformed. Automation also creates its own set of problems but automated approaches to those problems are often possible. There is a saying in software development: if you do the same thing thrice, it's time to program it, and this applies similarly with Agile Security.
+// what does transformed mean
 
 === Measure
 
@@ -391,7 +398,7 @@ Performance that cannot be measured cannot be improved. Without measurements, th
 * Resilient: Security no longer relies on a single function, e.g. a single security department. Integration of security practices throughout the organization. Requires deeper involvement when compared to ISMS processes.
 
 * Holistic: Focused on business needs and responding to the actual risk context of the organization when compared to traditional information security management, from business goals to operational processes to humans, who often turn out to be the weakest link.
-// long sentance and can be rephrased
+// long sentence and can be rephrased
 
 * Dynamic: The protection of business goals is performed through integrating security with business processes, often down to the tactical levels. This allowing the organization to react faster and more effectively to threats and incidents.
 
@@ -427,14 +434,14 @@ Agile Security provides a set of wide-implicating and easily understandable prin
 [appendix]
 == Guidelines for implementing Agile Security
 
-=== Approach A: Cross-train
+=== Cross-training
 
 Form an operational security function by selecting 1 or 2 persons that have an interest or background in security from each Business Unit and delegate security related tasks to those individuals. Make these persons a representative of the operational security teams.
 
 The operational security teams know exactly what types of operating systems are used, applications are supported for the business, etc. In some organizations, this collaboration involves embedding IT operations specialists within software development teams, thus forming a cross-functional team. This effort may also be combined with a skills matrix.
 
 
-=== Approach B: Delegate
+=== Delegating
 
 Delegate risk management, maintenance of BCPs etc. to department heads. Freeing up resources of the dedicated security team so they can focus on the security process management and providing the framework(s). The department heads know exactly what they have in house, what risks there are.
 
@@ -451,13 +458,12 @@ Operating system patching results in downtime due to the sheer volume of patches
 ////
 
 
-
+////
 [appendix]
 == What Agile Security is not
 
 TODO: Placeholder if we need it.
 
-////
 WHAT AGILE SECURITY IS NOT
 
 AGILE SECURITY COMPARED TO ISMS

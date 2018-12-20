@@ -1,10 +1,8 @@
 .DS_Store
 .swp
-.tmp.xml
+.deploy_key
 
-# ISO files
-iso-*.html
-iso-*.doc
-iso-*.xml
-iso-*_files
+# Metanorma artifacts
+.tmp.xml
+*_files
 
